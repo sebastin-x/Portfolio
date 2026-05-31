@@ -36,7 +36,7 @@ function App() {
           React JS, UI/UX Design, and Full Stack Development.
         </p>
 
-        <a href="#" className="btn">
+        <a href={`${process.env.PUBLIC_URL}/Sebastin_Xavier_Resume.pdf`} className="btn" target="_blank" rel="noopener noreferrer">
           Download Resume
         </a>
       </section>
