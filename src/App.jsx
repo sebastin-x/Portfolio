@@ -22,7 +22,7 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <img
-          src={`${process.env.PUBLIC_URL}/xavier.jpg`}
+          src={`${process.env.PUBLIC_URL}/xavier.png`}
           alt="Profile"
           className="profile-image"
         />
