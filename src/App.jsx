@@ -29,11 +29,11 @@ function App() {
 
         <h1>Sebastin Xavier B</h1>
 
-        <h3>Junior Frontend Developer</h3>
+        <h3>Junior Java Full Stack Developer</h3>
 
         <p>
-          BCA Graduate (2026) passionate about Frontend Development,
-          React JS, UI/UX Design, and Full Stack Development.
+          BCA Graduate passionate about Java Full Stack Development,
+          building scalable applications, and solving complex problems with clean code.
         </p>
 
         <a href={`${process.env.PUBLIC_URL}/Sebastin_Xavier_Resume.pdf`} className="btn" target="_blank" rel="noopener noreferrer">
@@ -48,12 +48,7 @@ function App() {
           <h2>About Me</h2>
 
           <p>
-            BCA graduate from Don Bosco College with strong knowledge
-            in HTML, CSS, JavaScript, React JS, Node JS, MySQL,
-            Python and Java.
-
-            Certified in Oracle AI Foundations and experienced in
-            developing responsive web applications and modern UI designs.
+            BCA graduate with hands-on experience in Java-based application development and full-stack web development. Skilled in Java, Spring Boot, REST APIs, Spring Data JPA, MySQL, React.js, JavaScript, HTML5 and CSS3. Experienced in developing database-driven applications, RESTful services, CRUD operations and responsive user interfaces. Familiar with Git/GitHub, Postman and software development workflows.
           </p>
         </section>
 
@@ -62,17 +57,7 @@ function App() {
           <h2>Technical Skills</h2>
 
           <div className="skill">
-            <p className="skill-name">HTML & CSS</p>
-            <div className="progress">
-              <div
-                className="progress-bar"
-                style={{ width: "95%" }}
-              ></div>
-            </div>
-          </div>
-
-          <div className="skill">
-            <p className="skill-name">JavaScript</p>
+            <p className="skill-name">Java & Spring Boot</p>
             <div className="progress">
               <div
                 className="progress-bar"
@@ -82,21 +67,31 @@ function App() {
           </div>
 
           <div className="skill">
-            <p className="skill-name">React JS</p>
+            <p className="skill-name">React JS & JavaScript</p>
             <div className="progress">
               <div
                 className="progress-bar"
-                style={{ width: "80%" }}
+                style={{ width: "85%" }}
               ></div>
             </div>
           </div>
 
           <div className="skill">
-            <p className="skill-name">MySQL</p>
+            <p className="skill-name">HTML5 & CSS3</p>
             <div className="progress">
               <div
                 className="progress-bar"
-                style={{ width: "75%" }}
+                style={{ width: "95%" }}
+              ></div>
+            </div>
+          </div>
+
+          <div className="skill">
+            <p className="skill-name">REST APIs & MySQL</p>
+            <div className="progress">
+              <div
+                className="progress-bar"
+                style={{ width: "80%" }}
               ></div>
             </div>
           </div>
@@ -109,18 +104,18 @@ function App() {
           <div className="stats">
 
             <div className="stat-card">
-              <h2>10+</h2>
+              <h2>15+</h2>
               <p>Technologies</p>
             </div>
 
             <div className="stat-card">
-              <h2>1+</h2>
+              <h2>1</h2>
               <p>Internship</p>
             </div>
 
             <div className="stat-card">
-              <h2>1+</h2>
-              <p>Major Project</p>
+              <h2>2</h2>
+              <p>Major Projects</p>
             </div>
 
             <div className="stat-card">
@@ -136,6 +131,21 @@ function App() {
           <h2>Projects</h2>
 
           <div className="project-card">
+            <h3>Employee Management System</h3>
+
+            <p>
+              Java Full-Stack Web Application
+            </p>
+
+            <ul>
+              <li>Full-stack application using Spring Boot REST API backend and React frontend</li>
+              <li>Dynamic metrics panel tracking employees, statuses, and departments in real-time</li>
+              <li>Secure CRUD operations for workforce records management</li>
+              <li>MySQL database integration with JPA/Hibernate</li>
+            </ul>
+          </div>
+
+          <div className="project-card">
             <h3>TIMCRAF</h3>
 
             <p>
@@ -143,11 +153,10 @@ function App() {
             </p>
 
             <ul>
-              <li>Admin, Worker and Customer Dashboard</li>
-              <li>Role Based Authentication</li>
-              <li>Responsive Design</li>
-              <li>MySQL Database Integration</li>
-              <li>PHP Backend Development</li>
+              <li>Role-based web application with Admin, Worker, and Customer modules</li>
+              <li>Secure authentication and Role-Based Access Control (RBAC)</li>
+              <li>Responsive UI with optimized MySQL database queries</li>
+              <li>End-to-end production workflow management</li>
             </ul>
           </div>
         </section>
@@ -157,15 +166,17 @@ function App() {
           <h2>Internship Experience</h2>
 
           <div className="internship-card">
-            <h3>Ruby Learning Center</h3>
+            <h3>Ruby Learning Centre</h3>
 
-            <p>Web Development Intern</p>
+            <p>Web Development Intern | May 2025</p>
+            <p>Tiruvannamalai, Tamil Nadu</p>
 
             <ul>
-              <li>Built responsive webpages</li>
-              <li>Created UI designs in Figma</li>
-              <li>Worked with frontend technologies</li>
-              <li>Collaborated with development teams</li>
+              <li>Designed and developed responsive web pages using HTML, CSS, and JavaScript</li>
+              <li>Created wireframes and UI layouts in Figma for multiple projects</li>
+              <li>Improved UI consistency across 3+ pages with responsive design</li>
+              <li>Collaborated with cross-functional team on frontend development and application design</li>
+              <li>Met weekly sprint deadlines and gained exposure to professional coding standards</li>
             </ul>
           </div>
         </section>
@@ -177,23 +188,23 @@ function App() {
           <div className="timeline">
 
             <div className="timeline-item">
-              <h3>BCA</h3>
+              <h3>Bachelor of Computer Applications (BCA)</h3>
 
               <p>
-                Don Bosco College, Yelagiri Hills
+                Don Bosco College, Yelagiri Hills, Tirupattur | Thiruvalluvar University
               </p>
 
-              <p>2023 - 2026</p>
+              <p>Jun 2023 - May 2026 (Graduated 2026)</p>
             </div>
 
             <div className="timeline-item">
-              <h3>HSC</h3>
+              <h3>Higher Secondary Certificate (HSC)</h3>
 
               <p>
-                Dominic Savio Higher Secondary School
+                Dominic Savio Higher Secondary School, Tirupattur, Tamil Nadu
               </p>
 
-              <p>2022 - 2023</p>
+              <p>Jun 2022 - Apr 2023</p>
             </div>
 
           </div>
@@ -201,13 +212,13 @@ function App() {
 
         {/* Certifications */}
         <section>
-          <h2>Certifications</h2>
+          <h2>Certifications & Achievements</h2>
 
           <ul className="certification-list">
-            <li>Oracle AI Foundations Certification</li>
+            <li>Java Full-Stack Training (6 Months) | SLA Consultants | Completed Aug 2026</li>
 
             <li>
-              National Level GLITCH FIX Competition Participant
+              8th Place – National-Level GLITCH FIX Competition, Sacred Heart College, Tirupattur
             </li>
           </ul>
         </section>
