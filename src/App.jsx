@@ -57,7 +57,7 @@ function App() {
           <h2>Technical Skills</h2>
 
           <div className="skill">
-            <p className="skill-name">Java & Spring Boot</p>
+            <p className="skill-name">Backend: Java, Spring Boot, Spring Core, Spring MVC</p>
             <div className="progress">
               <div
                 className="progress-bar"
@@ -67,7 +67,7 @@ function App() {
           </div>
 
           <div className="skill">
-            <p className="skill-name">React JS & JavaScript</p>
+            <p className="skill-name">Frontend: React JS, HTML5, CSS3, JavaScript</p>
             <div className="progress">
               <div
                 className="progress-bar"
@@ -77,21 +77,21 @@ function App() {
           </div>
 
           <div className="skill">
-            <p className="skill-name">HTML5 & CSS3</p>
-            <div className="progress">
-              <div
-                className="progress-bar"
-                style={{ width: "95%" }}
-              ></div>
-            </div>
-          </div>
-
-          <div className="skill">
-            <p className="skill-name">REST APIs & MySQL</p>
+            <p className="skill-name">Databases & APIs: MySQL, REST API, JPA/Hibernate, Microservices</p>
             <div className="progress">
               <div
                 className="progress-bar"
                 style={{ width: "80%" }}
+              ></div>
+            </div>
+          </div>
+
+          <div className="skill">
+            <p className="skill-name">Tools: Git, GitHub, Postman, Figma, Eclipse, VS Code, XAMPP</p>
+            <div className="progress">
+              <div
+                className="progress-bar"
+                style={{ width: "85%" }}
               ></div>
             </div>
           </div>
