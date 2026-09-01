@@ -36,7 +36,7 @@ function App() {
           building scalable applications, and solving complex problems with clean code.
         </p>
 
-        <a href={`${process.env.PUBLIC_URL}/Sebastin_Xavier_Resume.pdf`} className="btn" target="_blank" rel="noopener noreferrer">
+        <a href={`${process.env.PUBLIC_URL}/Sebastin_Xavier.pdf`} className="btn" target="_blank" rel="noopener noreferrer">
           Download Resume
         </a>
       </section>
